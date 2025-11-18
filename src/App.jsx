@@ -1,7 +1,5 @@
 import React from 'react'
-import AccessForm from './component/AccessForm'
 import { Toaster } from 'react-hot-toast'
-import VisitorForm from './component/VisitorForm'
 import AccessFormWizard from './component/AccessFormWizard'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import RequestData from './Pages/RequestData'
@@ -9,23 +7,19 @@ import RequestData from './Pages/RequestData'
 
 const App = () => {
   const router = createBrowserRouter([
-  {
-    path: "/",
-    element:  <AccessFormWizard/>,
-  },
-  {
-    path: "/request-data",
-    element: <RequestData/>,
-  }
-]);
+    {
+      path: "/",
+      element: <AccessFormWizard />,
+    },
+    {
+      path: "/request-data",
+      element: <RequestData />,
+    }
+  ]);
   return (
     <>
-      {/* <AccessForm/> */}
-      {/* Main component */}
-      {/* <VisitorForm/> */}
-      {/* <AccessFormWizard/> */}
       <RouterProvider router={router} />,
-     <Toaster position="top-right" reverseOrder={false} />
+      <Toaster position="top-right" reverseOrder={false} />
     </>
   )
 }

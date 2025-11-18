@@ -57,10 +57,13 @@ const RequestData = () => {
                                                         <strong>Aadhar:</strong> {v.aadhar}
                                                     </p>
 
+                                                   
                                                     <p className="text-sm">
+                                                        <strong>Purpose:</strong> {v.purpose}
+                                                    </p>
+                                                     <p className="text-sm">
                                                         <strong>Date:</strong> {v.visitDate}
                                                     </p>
-
                                                     <p className="text-sm">
                                                         <strong>Time:</strong> {v.visitTime}
                                                     </p>
