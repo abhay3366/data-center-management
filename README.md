@@ -46,18 +46,18 @@ The final step allows **submission** and saves the request in **localStorage**.
 * Dropdown to select the branch.
 * **Next** button is disabled until a branch is selected.
 
-### Step 2: Requester + Email Details
+### Step 2: Recipient details + Recipient Details
 
-* **Requester Details**: Name, Mobile, Email, Company, Approval Authority
+* **Recipient Details**: Name, Mobile, Email, Company, Approval Authority
 * **Email Details**:
 
-  * **From Email** (auto-filled from requester email, read-only)
+  * **From Email** (auto-filled from Recipient email, read-only)
   * **To** (comma-separated)
   * **CC** (comma-separated)
 
 ### Step 3: Visitors
 
-* Add multiple visitors with details: Name, Mobile, Aadhar, Visit Date, Visit Time
+* Add multiple visitors with details: Name, Mobile, Aadhar,Purpose of Visit Visit Date, Visit Time
 * Add or remove **returnable materials** for each visitor
 * Dynamic visitor and material management
 
