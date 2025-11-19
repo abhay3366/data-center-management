@@ -58,7 +58,7 @@ const Visitor = ({ visitors, handleVisitorChange, handleMaterialChange, addVisit
                                 {/* Purpose  */}
                                 <div>
                                     <label className="block text-sm font-medium text-slate-600 mb-1">
-                                        <span className="text-red-500">*</span> Purpose
+                                        <span className="text-red-500">*</span> Purpose of Visit
                                     </label>
                                     <input
                                         type="text"
